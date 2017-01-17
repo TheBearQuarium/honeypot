@@ -68,7 +68,7 @@ export class ModalContentPage {
       {
         name: 'Gollum',
         quote: 'Sneaky little hobbitses!',
-        image: 'honeypot/images/accessories/starter-bear/gentleman-clipart-black_top_hat.png',
+        image: '../images/accessories/starter-bear/gentleman-clipart-black_top_hat.png',
         items: [
           { title: 'Race', note: 'Hobbit' },
           { title: 'Culture', note: 'River Folk' },

@@ -12,6 +12,7 @@ import { PetPage } from '../pages/pet/pet';
 import { StorePage } from '../pages/store/store';
 import { EditAccountPage } from '../pages/edit-account/edit-account';
 import { AdoptPetPage } from '../pages/adopt-pet/adopt-pet';
+import { StorePage as ModalBasicPage, ModalContentPage } from '/Users/gonewayword/Hack_Reactor/Applications/honeypot/src/pages/store/store';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { AdoptPetPage } from '../pages/adopt-pet/adopt-pet';
     PetPage,
     StorePage,
     EditAccountPage,
-    AdoptPetPage
+    AdoptPetPage,
+    ModalBasicPage,
+    ModalContentPage,
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -44,7 +47,9 @@ import { AdoptPetPage } from '../pages/adopt-pet/adopt-pet';
     PetPage,
     StorePage,
     EditAccountPage,
-    AdoptPetPage
+    AdoptPetPage,
+    ModalBasicPage,
+    ModalContentPage,
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

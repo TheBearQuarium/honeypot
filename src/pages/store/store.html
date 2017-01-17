@@ -11,8 +11,25 @@
   </ion-navbar>
 
 </ion-header>
-
+<button ion-button ></button>
 
 <ion-content padding>
+
+  <ion-list>
+    <ion-list-header>
+      <!-- {{pet.name}} -->
+      Accessories
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Fancy Top Hat
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Schmancy Schmop Schmat
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      Oversized Clock Bling
+    </a>
+  </ion-list>
+
   <button ion-button (click)='purchase()'>Purchase</button>
 </ion-content>
